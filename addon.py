@@ -14,4 +14,10 @@ xbmcgui.Dialog().ok(addonname, line1)
 line2 = "Kodi is a free open source software licensed under the GPL License"
 
 # Launch a dialog box in kodi showing the string variable 'line1' as the contents
-xbmcgui.Dialog().ok(What is Kodi, line2)
+xbmcgui.Dialog().ok(What is Kodi?, line2)
+
+# Set a string variable to use 
+line3 = "Navigating through Kodi is very easy as a piece of cake, You might even know it once it starts!"
+
+# Launch a dialog box in kodi showing the string variable 'line1' as the contents
+xbmcgui.Dialog().ok(Navigating, line3)
