@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.hello.world" name="Hello World" version="1.0.2" provider-name="zag">
+<addon id="script.kodi.tour" name="Tour" version="1.0.0" provider-name="zag, Thirdy">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -8,21 +8,16 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary lang="en">Popup Hello World</summary>
-		<description lang="en">Example Script to show Hello World</description>
+		<summary lang="en">Kodi Tour!</summary>
+		<description lang="en">Get started with Kodi without going to the wiki</description>
 		<license>GNU General Public License, v2</license>
-		<language></language>
-		<forum>http://forum.kodi.tv/showthread.php?tid=209948</forum>
-		<source>https://github.com/zag2me/script.hello.world</source>
+		<language>English</language>
+		<source>https://github.com/thoffical/script.kodi.tour</source>
 		<website>Kodi.tv</website>
-		<email>zag@kodi.org</email>
+		<email>thcorporation8(at)yahoo(dot)com</email>
 		<assets>
 			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>Updated the addon to use new addon.xml metadata</news>
+		<news>1.0.0 - First Commit</news>
 	</extension>
 </addon>
