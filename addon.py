@@ -21,3 +21,9 @@ line3 = "Navigating through Kodi is very easy as a piece of cake, You might even
 
 # Launch a dialog box in kodi showing the string variable 'line1' as the contents
 xbmcgui.Dialog().ok(Navigating, line3)
+
+# Set a string variable to use 
+line3 = "Come back later because this is a draft"
+
+# Launch a dialog box in kodi showing the string variable 'line1' as the contents
+xbmcgui.Dialog().ok(Done!, line3)
